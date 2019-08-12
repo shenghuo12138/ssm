@@ -8,10 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * @author $(USER)
- * @create $(YEAR)-$(MONTH)-$(DAY)-$(TIME)
- */
+
 @Service("accountService")
 public class AccountServiceImpl implements AccountService {
     @Autowired
